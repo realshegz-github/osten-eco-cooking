@@ -50,10 +50,10 @@ const ContactForm = () => {
     <div className='flex font-sans flex-col justify-center px-[5%] items-center py-14 sm:py-20 max-w-[1400px] mx-auto'  id="contact">
       <ToastContainer />
       <div className="flex items-center gap-1 mb-2">
-        <GoSquareFill color="#3BB3C3" />
+        <GoSquareFill color="#FBBD02" />
         <p className="sm:text-base font-semibold">Ready to Cook Clean?</p>
       </div>
-      <h2 className="text-lg font-sans text-center sm:text-xl leading-[49px] mb-12">Join us in making a difference.<br/>Register now! </h2>
+      <h2 className="text-[24px] ss:text-lg font-sans text-center md:text-xl leading-tight mb-12">Join us in making a difference.<br/>Register now! </h2>
       <form className="w-full sm:w-3/4" onSubmit={handleSubmit} >
         <div className='flex gap-3 ss:gap-5 mb-4'>
           <div className="w-full">

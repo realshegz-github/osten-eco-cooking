@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HeroBanner = () => {
   return (
     <section
-    className="font-sans flex flex-col items-center justify-center w-full md:h-screen">
+    className="font-sans flex flex-col mt-[50px] items-center justify-center w-full md:h-screen">
   <div className="flex md:flex-row flex-col-reverse w-full md:h-screen">
   <div className='h-[350px] md:h-screen md:w-[50%]'>
   <img src={chef} alt="chef" className='object-center w-full h-full'/>

@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="mx-auto max-w-[1440px] px-[5%] md:flex md:justify-between py-20">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
-            <img src={logo} alt="logo" className='object-cover max-w-96 h-full'/>
+            <img src={logo} alt="logo" className='object-cover ss:max-w-96 h-full'/>
             </Link>
         
           </div>
@@ -16,9 +16,9 @@ const Footer = () => {
           <div>
             <div className="mb-5">
               <h2 className="font-bold text-md ">Contact Us</h2>
-              <hr className="border-b-4 border-secondary w-11" />
+              <hr className="border-b-4 border-[#FBBD02] w-11" />
             </div>
-            <ul className="text-base max-w-[244px]">
+            <ul className="text-base max-w-[244px] ss:max-w-full">
               <li className="mb-1 flex items-center gap-1">
                 <b>Email:</b>
                 <a href={`mailto:inquiries@ostenlaboratory.com`}>inquiries@ostenlaboratory.com</a>
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
 
         <div className="w-full py-10 sm:py-7 bg-secondary">
-          <p className=" text-white text-center ">
+          <p className="text-white text-center ">
             Copyright Osten Laboratory. 2024. All Rights Reserved
           </p>
         </div>
