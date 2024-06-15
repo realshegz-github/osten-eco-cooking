@@ -1,4 +1,3 @@
-import React from 'react'
 import { LuChefHat } from "react-icons/lu";
 import chef from '../assets/chef.jpg'
 import { Link } from 'react-router-dom';

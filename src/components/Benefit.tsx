@@ -1,4 +1,3 @@
-import React from 'react'
 import gas from '../assets/gas-cooker.jpg'
 import { GoSquareFill } from 'react-icons/go'
 import { IoIosCheckmarkCircle} from 'react-icons/io'
