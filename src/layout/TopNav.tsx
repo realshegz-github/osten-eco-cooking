@@ -1,4 +1,5 @@
-import {  GrLocation, GrMailOption } from "react-icons/gr"
+import {  GrLocation} from "react-icons/gr"
+import { MdTopic} from "react-icons/md"
 import { IoTimeOutline } from "react-icons/io5";
 
 const TopNav = () => {
@@ -12,15 +13,15 @@ const TopNav = () => {
       </div>
       
       <div className="flex items-center gap-2">
-      <GrMailOption color="#FBBD02"/>
-      <span className="text-[10px] ss:text-sm ">Eco-Friendly Cooking</span>
+      <MdTopic  color="#FBBD02"/>
+      <span className="text-[10px] font-semibold ss:text-sm ">Eco-Friendly Cooking</span>
       </div>
       </div>
       
       <div className="flex items-center gap-10">
       <div className="flex items-center gap-2">
       <IoTimeOutline color="#FBBD02"/>
-      <span className="text-[10px] whitespace-nowrap ss:text-sm ">June 30: 9:00am - 5:00pm</span>
+      <span className="text-[10px] whitespace-nowrap ss:text-sm ">June 30th : 9:00am - 5:00pm</span>
       </div>
       
       </div>

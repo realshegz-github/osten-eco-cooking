@@ -16,7 +16,7 @@ const HeroBanner = () => {
   <div className="flex flex-col justify-center items-center h-full">
   
   <div>
-  <Zoom duration="2000">
+  <Zoom duration="1500">
   <div className='mb-5 flex items-center justify-center'><LuChefHat fontSize="64px"/></div>
   <h2 className="text-[48px] sm:text-[64px] mb-5 leading-tight font-bold text-center max-w-[450px] font-poppins">
     The Art <br/>of Cooking
