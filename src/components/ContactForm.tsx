@@ -3,6 +3,7 @@ import { GoSquareFill } from 'react-icons/go';
 import emailjs from 'emailjs-com';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import {Zoom} from 'react-reveal'
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -53,7 +54,10 @@ const ContactForm = () => {
         <GoSquareFill color="#FBBD02" />
         <p className="sm:text-base font-semibold">Ready to Cook Clean?</p>
       </div>
+      <Zoom duration="2000">
       <h2 className="text-[24px] ss:text-lg font-sans text-center md:text-xl leading-tight mb-12">Join us in making a difference.<br/>Register now! </h2>
+      </Zoom>
+      
       <form className="w-full sm:w-3/4" onSubmit={handleSubmit} >
         <div className='flex gap-3 ss:gap-5 mb-4'>
           <div className="w-full">
